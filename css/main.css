@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 100; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.container {
+  border: 2px solid RGBA(0, 51, 51, 1);
+  border-radius: 10px;
+  background-color: RGBA(102, 153, 153, 0.3); }
+
+.buttons {
+  height: 330px; }
+
+.buttons button {
+  height: 48px;
+  border: 1px solid grey; }
+
+.display {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 100%;
+  background-color: RGBA(76, 76, 76, 0.5);
+  height: 80px;
+  text-align: right;
+  color: white;
+  font-weight: 100;
+  line-height: 80px;
+  margin: none; }
+  .display:last-child {
+    margin-right: 0; }
+
+.clrminuspercent {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  background-color: RGBA(102, 153, 153, 0.5); }
+  .clrminuspercent:last-child {
+    margin-right: 0; }
+
+.number {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  background-color: RGBA(224, 224, 224, 1); }
+  .number:last-child {
+    margin-right: 0; }
+
+.zero {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 50%;
+  background-color: RGBA(224, 224, 224, 1); }
+  .zero:last-child {
+    margin-right: 0; }
+
+.operator {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  /*   @include omega();
+   */
+  background-color: RGBA(13, 77, 77, 1);
+  color: #fff; }
+  .operator:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
